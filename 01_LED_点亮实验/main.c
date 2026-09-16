@@ -4,8 +4,8 @@
 
 int main(void)
 {
-    HAL_Init();                         /* ³õÊ¼»¯HAL¿â */
-    stm32_clock_init(RCC_PLL_MUL9); /* ÉèÖÃÊ±ÖÓ, 72Mhz */
+    HAL_Init();                         /* Â³ÃµÃŠÂ¼Â»Â¯HALÂ¿Ã¢ */
+    stm32_clock_init(RCC_PLL_MUL9); /* Ã‰Ã¨Ã–ÃƒÃŠÂ±Ã–Ã“, 72Mhz */
 		led_init();
 	
     while(1)
