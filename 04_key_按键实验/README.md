@@ -148,7 +148,7 @@ void led2_toggle(void)
 #endif
   ```
 
-##4.key.c
+## 4.key.c
 
 读取引脚电平状态判断按键有没有按下（即按键引脚状态是不是低电平，因为初始化的时候设置的是上拉电阻，上拉输入+按键接地）
 
@@ -214,7 +214,7 @@ uint8_t  key_scan(void)
 }
 ```
 
-##5.key.h
+## 5.key.h
 
 因为key_scan(void)，是一个有返回值的函数，所以要在前面包含头文件#include "sys.h"
 
